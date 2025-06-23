@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keshav's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: white;
+            margin: 30px auto;
+            padding: 40px 20px;
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .text-section {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+        .text-section h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .text-section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .image-section {
+            flex: 1;
+            text-align: center;
+            min-width: 250px;
+        }
+        .image-section img {
+            width: 80%;
+            max-width: 300px;
+            border-radius: 50%;
+            border: 5px solid #2c3e50;
+        }
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 900px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #aaa;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Keshav Mehta</h1>
+    <p>Future Software Engineer || Tech Enthusiast</p>
+</header>
+
+<!-- About Section with photo -->
+<div class="container">
+    <div class="text-section">
+        <h2>Hi, I'm Keshav Mehta</h2>
+        <p>Hello! I’m a passionate learner aspiring to become a top-notch Software Engineer. I enjoy working on innovative ideas and am enthusiastic about learning new technologies. I am currently pursuing B.Tech at Noida Institute of Engineering and Technology, Greater Noida, specializing in Artificial Intelligence.</p>
+    </div>
+    <div class="image-section">
+        <img src="1.webp" alt="Keshav's Photo">
+    </div>
+</div>
+
+<!-- Academic Qualification Section -->
+<section>
+    <h2>Academic Qualifications</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Qualifications</th>
+                <th>School Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10th</td>
+                <td>Siddharth International School, Hisar</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>Scottish International School, Hisar</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Skills Section -->
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java (Fluent)</li>
+        <li>Python</li>
+        <li>Web Development</li>
+    </ul>
+</section>
+
+<!-- Projects Section -->
+<section>
+    <h2>Projects</h2>
+    <p><strong>Learning Web Development</strong> - Following tutorials by Shradha Mam.</p>
+    <p>Currently my sole project is this portfolio: <a href="new_portflio.html">Portfolio</a></p>
+    <p><strong>Dream Project</strong> - Work at <a href="https://www.google.com/" target="_blank">Google</a></p>
+    <a href="https://www.google.com/"><img src="2.png" width="100" alt="Google Logo"></a>
+</section>
+
+<!-- Resume Section -->
+<section>
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" download>Download My Resume (PDF)</a></p>
+</section>
+
+<!-- Contact Section -->
+<section>
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:Keshav456mehta@gmail.com">Keshav456mehta@gmail.com</a></p>
+    <p><strong>Phone:</strong> 9467214910</p>
+    <p><strong>Linkedin Profile: </strong>  <a href="https://www.linkedin.com/in/keshav-mehta-998985353/" target="_blank">Keshav's LinkedIn</a></p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Keshav Mehta. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
